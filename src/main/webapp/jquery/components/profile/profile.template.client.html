@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"/>
+<title>Profile</title>
+  <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+
+  <script src="../../services/user.service.client.js"></script>
+  <script src="profile.controller.client.js"></script>
+
+</head>
+<body background-image="https://wallpapertag.com/wallpaper/full/c/a/a/157415-simplistic-wallpapers-1920x1080-lockscreen.jpg">
+<div class="container">
+  <h1 id="title">Profile</h1>
+    <form>
+        <div class="form-group row">
+            <label for="username" class="col-sm-2 col-form-label">Username</label>
+            <div class="col-sm-10">
+                <input type="text" readonly class="form-control-plaintext" id="username" value="Mrunal2195">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail" placeholder="Email Id">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+        </div>
+        <form>
+           <div class="form-group row">
+                <label for="inputfirstname" class="col-sm-2 col-form-label">First Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputfirstname" placeholder="first name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputlastname" class="col-sm-2 col-form-label">Last Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputlastname" placeholder="last name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputrole" class="col-sm-2 col-form-label">Role</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputrole" placeholder="Role">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputphone" class="col-sm-2 col-form-label">Phone No</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputphone" placeholder="Phone No">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputDateOfBirth" class="col-sm-2 col-form-label">Date Of Birth</label>
+                <div class="col-sm-10">
+                    <input type=date class="form-control" id="inputDateOfBirth" placeholder="Date Of Birth">
+                </div>
+            </div>
+            <div>
+                <button type="button" id="updateBtn" class="btn btn-primary wbdv-updateProfile">Update</button>
+            </div>
+        </form>
+        </form>
+    </form>
+  </div>
+</body>
+</html>
