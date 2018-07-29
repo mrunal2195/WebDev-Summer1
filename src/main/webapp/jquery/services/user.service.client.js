@@ -61,7 +61,7 @@ function UserServiceClient() {
                     return response.json();
                 }
             });
-    }
+    } 
 
     function profilePage(){
         return fetch(this.profile, {
