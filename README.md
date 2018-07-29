@@ -10,5 +10,5 @@ It also displays User-Admin Panel, which shows details of registered users.
 4. Run application as Java application.
 
 #URL(Deployed on heroku):
-1. Registartion : https://wbdev-summer1week1.herokuapp.com/jquery/components/register/register.template.client.html
-2. User-Admin Panel: https://wbdev-summer1week1.herokuapp.com/jquery/components/user-admin/user-admin.template.client.html 
+1. [Registartion](https://wbdev-summer1week1.herokuapp.com/jquery/components/register/register.template.client.html)
+2. [User-Admin Panel](https://wbdev-summer1week1.herokuapp.com/jquery/components/user-admin/user-admin.template.client.html) 
